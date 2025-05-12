@@ -11,5 +11,9 @@ import XCTest
 @testable import AdvanceProgrammingInSwiftUnitTest
 
 final class AdvanceProgrammingInSwiftUnitTestTests: XCTestCase {
-
+    
+    //Create a test function for 20% of tax
+    func test_calculateTotal_salesTaxTwentyPercent() {
+        
+    }
 }
