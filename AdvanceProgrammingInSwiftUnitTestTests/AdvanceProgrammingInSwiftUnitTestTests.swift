@@ -25,5 +25,8 @@ final class AdvanceProgrammingInSwiftUnitTestTests: XCTestCase {
         
         //Act by calling the calculateTotal function with the test data
         let totalTopay = calculateTotal(items: items, localTaxPercent: taxPercentage)
+        
+        //Assert that the result is as expected
+        XCTAssertEqual(totalTopay, 2370)
     }
 }
