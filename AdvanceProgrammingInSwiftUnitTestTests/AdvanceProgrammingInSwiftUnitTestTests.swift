@@ -22,5 +22,8 @@ final class AdvanceProgrammingInSwiftUnitTestTests: XCTestCase {
             CheckoutItem(name: "Black Coffee", price: 175),
         ]
         let taxPercentage = 20
+        
+        //Act by calling the calculateTotal function with the test data
+        let totalTopay = calculateTotal(items: items, localTaxPercent: taxPercentage)
     }
 }
